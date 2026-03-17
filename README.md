@@ -1,2 +1,1 @@
-# Your download will start automatically.please click on file downloaded and install to connect automatically
-Thanks
+# Your download will start automatically,open the downloaded file and install it to connect automatically.
